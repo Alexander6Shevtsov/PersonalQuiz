@@ -87,7 +87,7 @@
         <!--Вопрос №-->
         <scene sceneID="wFA-MU-riu">
             <objects>
-                <viewController id="aZP-Q6-5Lc" sceneMemberID="viewController">
+                <viewController id="aZP-Q6-5Lc" customClass="QuestionsViewController" customModule="PersonalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZxA-PS-y75">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -254,7 +254,7 @@
         <!--Результат-->
         <scene sceneID="fRb-X2-qBU">
             <objects>
-                <viewController id="90I-Ch-g5P" sceneMemberID="viewController">
+                <viewController id="90I-Ch-g5P" customClass="ResultViewController" customModule="PersonalQuiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="biz-Ky-wBs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -299,7 +299,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tgA-ev-yNg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Ljd-bE-AEH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="98.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="92.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

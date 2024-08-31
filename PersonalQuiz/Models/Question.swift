@@ -79,6 +79,6 @@ enum Animal: Character {
         }
     }
 }
-// пример как это работает
+// как это работает:
 //let animal: Animal = .dog
 //animal.definition

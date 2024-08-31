@@ -8,7 +8,7 @@
     // если типы данных важны то struct
 struct Question { // если пользователь не может ничего менять, то все let
     let title: String
-    let type: ResponseType // этот тип мы создали сами
+    let responseType: ResponseType // этот тип мы создали сами
     let answers: [Answer] // сами создали тип
     
     // MVP - данные, пока нет других
@@ -16,17 +16,17 @@ struct Question { // если пользователь не может ниче�
         [
             Question(
                 title: "Какую пищу вы предпочитаете?",
-                type: .single,
-                answers: [
-                    Answer(title: "Стэйк", animal: .dog),
-                    Answer(title: "Рыбы", animal: .cat),
+                responseType: .single,
+                answers: [ // в main создаем массив оутлетов
+                    Answer(title: "Стейк", animal: .dog),
+                    Answer(title: "Рыба", animal: .cat),
                     Answer(title: "Морковь", animal: .rabbit),
                     Answer(title: "Кукуруза", animal: .turtle)
                 ]
             ),
             Question(
                 title: "Что вам нравится больше?",
-                type: .multiple,
+                responseType: .multiple,
                 answers: [
                     Answer(title: "Плавать", animal: .dog),
                     Answer(title: "Спать", animal: .cat),
@@ -36,7 +36,7 @@ struct Question { // если пользователь не может ниче�
             ),
             Question(
                 title: "На машине катаетесь?",
-                type: .ranged,
+                responseType: .ranged,
                 answers: [
                     Answer(title: "Ненавижу", animal: .cat),
                     Answer(title: "Нервничаю", animal: .rabbit),
